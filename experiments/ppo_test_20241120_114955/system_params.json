@@ -1,0 +1,27 @@
+{
+    "num_ambulances": 5,
+    "task_size_range": [
+        0.1,
+        2.0
+    ],
+    "task_cpu_cycles_range": [
+        100,
+        1000
+    ],
+    "task_priority_range": [
+        1,
+        5
+    ],
+    "bandwidth": 20.0,
+    "transmission_power": 0.1,
+    "noise_power": 1e-13,
+    "path_loss_exponent": 4,
+    "local_cpu_freq": 2.0,
+    "edge_cpu_freq": 3.0,
+    "local_cpu_power": 0.9,
+    "edge_cpu_power": 1.5,
+    "preprocessing_ratio": 0.6,
+    "preprocessing_cycles": 50,
+    "delay_weight": 0.7,
+    "energy_weight": 0.3
+}
